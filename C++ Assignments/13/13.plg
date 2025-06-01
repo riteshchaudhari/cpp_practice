@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 13 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user49\AppData\Local\Temp\RSP4C4D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/13.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp"
+]
+Creating command line "cl.exe @C:\Users\user49\AppData\Local\Temp\RSP4C4D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Prog.cpp
+D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(160) : error C2259: 'Employee' : cannot instantiate abstract class due to following members:
+        D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(103) : see declaration of 'Employee'
+D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(160) : warning C4259: 'void __thiscall Employee::display(void)' : pure virtual function was not defined
+        D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(130) : see declaration of 'display'
+D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(160) : error C2259: 'Employee' : cannot instantiate abstract class due to following members:
+        D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(103) : see declaration of 'Employee'
+D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(160) : warning C4259: 'void __thiscall Employee::display(void)' : pure virtual function was not defined
+        D:\Avi & Vaibhav [CPP]\C++ Assignments\13\Prog.cpp(130) : see declaration of 'display'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Prog.obj - 2 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

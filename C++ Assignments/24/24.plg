@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 24 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user49\AppData\Local\Temp\RSP1775.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/24.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp"
+]
+Creating command line "cl.exe @C:\Users\user49\AppData\Local\Temp\RSP1775.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Prog.cpp
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(168) : error C2065: 'string' : undeclared identifier
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(168) : error C2146: syntax error : missing ';' before identifier 'c'
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(168) : error C2065: 'c' : undeclared identifier
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(168) : error C2065: 'word' : undeclared identifier
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(172) : error C2664: '__thiscall istream::istream(class streambuf *)' : cannot convert parameter 1 from 'char [9]' to 'class streambuf *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(173) : error C2664: '__thiscall ostream::ostream(class streambuf *)' : cannot convert parameter 1 from 'char [9]' to 'class streambuf *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(174) : error C2039: 'is_open' : is not a member of 'istream'
+        c:\program files\microsoft visual studio\vc98\include\istream.h(64) : see declaration of 'istream'
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(176) : error C2065: 'getline' : undeclared identifier
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(178) : error C2228: left of '.get' must have class/struct/union type
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(182) : error C2228: left of '.get' must have class/struct/union type
+D:\Avi & Vaibhav [CPP]\C++ Assignments\24\Prog.cpp(197) : error C2039: 'close' : is not a member of 'istream'
+        c:\program files\microsoft visual studio\vc98\include\istream.h(64) : see declaration of 'istream'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Prog.obj - 11 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
